@@ -22,7 +22,7 @@ function trocarEscudo(){
     if (cont === 1)
     {
         document.getElementById("escudo").src = imgSport
-        document.getElementById("legenda").textContent = "Sport Clube Do Recife"
+        document.getElementById("legenda").textContent = "Sport Club Do Recife"
     }
     if (cont === 2)
     {
