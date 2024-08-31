@@ -1,3 +1,19 @@
 body {
     text-align: center;
 }
+
+button {
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 12px 20px;
+    border-radius: 0.24rem;
+    border: solid 2px #121212;
+    box-shadow: 0.25rem 0.25rem #121212;
+
+    transition: transform 50ms, box-shadow 50ms;
+}
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px #121212;
+}
